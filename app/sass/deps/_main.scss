@@ -1,0 +1,468 @@
+// GENERAL
+$small-screen-pretty-width: 80%;
+$large-screen-pretty-width: 50%;
+$main-color: #750384;
+$red-color: #CA3721;
+$secondary-color: #EEEEEE;
+$creamy-white: #EAD99A;
+// DARK MODE
+$dark-background: #000;
+$dark-main-text-color: #eee;
+// LIGHT MODE
+$light-background: #fff;
+$light-main-text-color: #000;
+
+// Mixins
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+/* comfortaa-regular - latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/comfortaa-v28-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/comfortaa-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/comfortaa-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/comfortaa-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/comfortaa-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/comfortaa-v28-latin-regular.svg#Comfortaa') format('svg'); /* Legacy iOS */
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.dark {
+  background-color: $dark-background;
+  color: $dark-main-text-color;
+
+  a {
+    color: $dark-main-text-color;
+  }
+  
+  .content {
+    border-color: $dark-main-text-color;
+  }
+
+  footer {
+    border-color: #fff;
+  }
+
+  .topnav {
+    border-color: $light-background;
+    background-color: $dark-background;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    ul {
+      background-color: $dark-background;
+      
+      li {
+        a {
+          color: $dark-main-text-color;
+        }
+      }
+    }
+  }
+}
+
+.light {
+  background-color: $light-background;
+  color: $light-main-text-color;
+
+  a {
+    color: $light-main-text-color;
+  }
+
+  .content {
+    border-color: $light-main-text-color;
+  }
+
+  .footer {
+    border-color: #000;
+  }
+
+  .topnav {
+    border-color: $dark-background;
+    background-color: $light-background;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    ul {
+      background-color: $light-background;
+      
+      li {
+        a {
+          color: $light-main-text-color;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  width: $small-screen-pretty-width;
+  border: 5px solid;
+  margin: 0 auto;
+  @include border-radius(5px);
+  text-align: center;
+  padding: .2em .5em;
+  margin-top: 1em;
+}
+
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comfortaa', sans-serif;
+  color: $red-color;
+}
+
+header.fullpage {
+  background-color: #e100e2;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom right,#e100e2,#090526);
+  background-size: cover;
+  background-position: center 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105%;
+
+  div {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    h1, h2, h4 {
+      color: $secondary-color;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+ul {
+  width: max-content;
+  line-height: 1.5;
+  margin-top: .5rem;
+  text-align: left;
+}
+
+.square {
+  position: relative;
+  width: 100%;
+  padding: .5rem .75rem;
+  text-align: center;
+  border: none;
+
+  .text {
+    font-size: 1rem;
+
+    h3 {
+      color: $main-color;
+    }
+  }
+}
+
+@media (screen), (min-width: 700px) {
+  header {
+    h1 {
+      font-size: 4.5em;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  .content {
+    width: $large-screen-pretty-width;
+    padding: .5rem .75rem;
+  }
+
+  .square {
+    width: 50%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+// Don't touch this below
+
+footer {
+  position: relative;
+  text-align: left;
+  margin-top: 1rem;
+  border-top: solid 5px;
+
+  div {
+    padding: .5em;
+  }
+}
+
+// Ok now you can change things
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s;
+  @include border-radius(34px);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #000;
+  -webkit-transition: .4s;
+  transition: .4s;
+  @include border-radius(50%);
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  @include box-shadow(0 0 1px #000);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: #fff;
+}
+
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+	@include box-shadow(1px 1px 4px #EBEBEB);
+	@include border-radius(3px);
+	padding: 7px;
+	outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+	border: 1px solid #0C0;
+}
+.form-style-2 .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	@include box-shadow(1px 1px 4px #DADADA);
+	@include border-radius(3px);
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+
+.icon {
+  font-size: 3rem
+}
+
+.topnav {
+  border-top: solid 5px;
+  border-bottom: solid 5px;
+  z-index: 1000;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+    li {
+      a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .main-content {
+  padding-top: 66px;
+}
+
+input:not([type=checklist]), button {
+  outline: none;
+  border: 2px solid $red-color;
+  padding: 0.5em;
+  border-radius: 5px;
+  width: 100%;
+  transition: .4s;
+  margin-bottom: 0.5em;
+}
+
+input[type=submit], button[type=submit] {
+  background-color: $red-color;
+}
+
+button {
+  cursor: pointer;
+}
+
+.checkbox-container:not(.disabled) {
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+
+  input:not(disabled) {
+    cursor: pointer;
+  }
+
+  input:checked ~ .checkmark {
+    background-color: $main-color;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    left: 50%;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    border-radius: 3px;
+    -ms-transform: rotate(45deg);
+    transform: translate(-50%, -50%);
+    background: #eee;
+  }
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.checkbox-container:hover:not(.disabled) input ~ .checkmark {
+  background-color: $red-color;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
