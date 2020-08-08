@@ -58,7 +58,7 @@
         <div class="text">
           <h3>Knights of Academia</h3>
           <p>An educational organization devoted to helping individuals actively become the greatest versions of themselves through the development of self discipline, critical thinking, and positive habits.</p>
-          <a href="https://discord.gg/mhu4maf" rel="noopener" target="_blank">Join Link</a>
+          <a href="https://discord.gg/r4vgPKA" rel="noopener" target="_blank">Join Link</a>
         </div>
       </div>
     </div>
