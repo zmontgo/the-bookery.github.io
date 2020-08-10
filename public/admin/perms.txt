@@ -1,5 +1,0 @@
-A - Admin (everything)
-P - Create post
-E - Edit post
-D - Delete post
-F - Manage friends
