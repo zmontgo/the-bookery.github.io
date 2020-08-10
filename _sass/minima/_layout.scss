@@ -7,6 +7,7 @@
   min-height: $spacing-unit * 1.865;
   // Positioning context for the mobile navigation icon
   position: relative;
+  background-color: #750384;
 }
 
 .site-title {
@@ -16,10 +17,12 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  color: white;
+  font-family: 'Courier Prime';
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: white;
   }
 }
 
@@ -36,7 +39,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color:white;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -91,6 +94,7 @@
       display: block;
       padding: 5px 10px;
 
+
       &:not(:last-child) {
         margin-right: 0;
       }
@@ -107,11 +111,14 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: #750384;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: white;
+  text-align: left;
 }
 
 .contact-list,
@@ -185,6 +192,7 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  font-family: 'Courier Prime';
 }
 
 .post-list {
@@ -219,6 +227,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  font-family: 'Courier Prime';
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -260,10 +269,11 @@
 .index-header {
   text-align: center;
   padding-top: 75px;
-  padding-bottom: 75px;
+  // padding-bottom: 35px;
 }
 .blue-header {
-  color: aqua;
+  color: blue;
+  font-family: 'Courier Prime';
 }
 .content {
   padding: .5rem .75rem;

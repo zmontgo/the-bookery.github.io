@@ -8,7 +8,7 @@ We have lots of communities we enjoy who we've decided to be friends with! If yo
 
 Want to join this list? Apply [here](/apply.html)!
 
-<h2 style="color: aqua">Discord Servers</h2>
+<h2 style="color: blue">Discord Servers</h2>
 
 {% for friend in site.data.friends %}
 
@@ -24,7 +24,7 @@ Want to join this list? Apply [here](/apply.html)!
 
 {% endfor %}
 
-<h2 style="color: aqua">Habitica Guilds</h2>
+<h2 style="color: blue">Habitica Guilds</h2>
 
 {% for friend in site.data.friends %}
 
