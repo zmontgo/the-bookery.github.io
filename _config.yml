@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Created in 2020 by Zachary Montgomery and Benjamin Hollon, we are dedicated to the creation, consumption,
   admiration, and discussion of literature. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-discord_url: RnqEckd
+url: "https://bookery.codingprojects.org" # the base hostname & protocol for your site, e.g. http://example.com
+discord_url: 2cEWaym
 
 # navigation
 
@@ -38,6 +38,7 @@ header_pages:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

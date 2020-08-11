@@ -8,33 +8,33 @@ We have lots of communities we enjoy who we've decided to be friends with! If yo
 
 Want to join this list? Apply [here](/apply.html)!
 
-<h2 style="color: blue">Discord Servers</h2>
+<h2 style="color: #CA3721; font-family: Courier Prime">Discord Servers</h2>
 
 {% for friend in site.data.friends %}
 
 {% if friend.type == "discord" %}
 
-### {{ friend.name }}
+<h3 style='font-family: Courier Prime'>{{ friend.name }}</h3>
 
 {{ friend.description }}
 
-<a href="{{ friend.link }}" style="text-decoration: underline;">Check them out on Discord!</a>
+<a href="{{ friend.link }}" style="text-decoration: underline; color: #6d99ff;">Check them out on Discord!</a>
 
 {% endif %}
 
 {% endfor %}
 
-<h2 style="color: blue">Habitica Guilds</h2>
+<h2 style="color: #CA3721; font-family: Courier Prime">Habitica Guilds</h2>
 
 {% for friend in site.data.friends %}
 
 {% if friend.type == "habitica" %}
 
-### {{ friend.name }}
+<h3 style='font-family: Courier Prime'>{{ friend.name }}</h3>
 
 {{ friend.description }}
 
-<a href="{{ friend.link }}" style="text-decoration: underline;">Check out their guild!</a>
+<a href="{{ friend.link }}" style="text-decoration: underline; color: #6d99ff">Check out their guild!</a>
 
 {% endif %}
 

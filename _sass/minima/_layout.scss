@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 1px solid $grey-color-dark;
+  border-top: none;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   // Positioning context for the mobile navigation icon
@@ -76,7 +76,7 @@
       text-align: center;
 
       > svg {
-        fill: $grey-color-dark;
+        fill: black;
       }
     }
 
@@ -212,6 +212,7 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  font-family: 'Courier Prime';
 }
 
 
@@ -272,7 +273,7 @@
   // padding-bottom: 35px;
 }
 .blue-header {
-  color: blue;
+  color: #CA3721;
   font-family: 'Courier Prime';
 }
 .content {
