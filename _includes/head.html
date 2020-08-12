@@ -7,6 +7,9 @@
   <link rel="canonical" href="https://bookery.codingprojects.org/">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
+  {%- site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
   <link rel="shortcut icon" href="/assets/favicon.ico">
   <!-- Original Metadata -->
   <meta content="The Bookery" property="og:title">
