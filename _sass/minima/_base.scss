@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #6d99ff;
   text-decoration: none;
+  transition: 0.2s;
 
   &:hover {
     color: $text-color;
@@ -125,9 +126,13 @@ a {
     }
   }
 }
-a
-{
-    position: relative;
+
+.site-title:hover {
+  color: #fff;
+}
+
+a {
+  position: relative;
 }
 
 a:before {
@@ -143,7 +148,7 @@ a:before {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover:before {
+.animatedlink:hover:before {
   visibility: visible;
   transform: scaleX(1);
 }
