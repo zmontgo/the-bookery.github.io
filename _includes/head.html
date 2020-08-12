@@ -2,7 +2,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
+  <title>{{ site.title }} | {{ page.title }}</title>
+  <link rel="canonical" href="https://bookery.codingprojects.org/">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
@@ -10,8 +11,10 @@
   {%- endif -%}
   <link rel="shortcut icon" href="/assets/favicon.ico">
   <!-- Original Metadata -->
-  <meta property="og:type" content="website">
   <meta content="The Bookery" property="og:title">
+  <meta content="https://codingprojects.org" property="og:url">
+  <meta content="website" property="og:type">
+  <meta content="Dedicated to the creation, consumption, admiration, and discussion of literature. This is an excellent place for Bibliophiles, Bibliophages, Logophiles, and anyone who loves a written format!" property="og:description">
   <meta content="https://codingprojects.org/images/bookery-logo.png" property="og:image">
   <meta content="summary" name="twitter:card">
   <meta content="The Bookery" name="twitter:title">
