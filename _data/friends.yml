@@ -1,0 +1,16 @@
+- name: Knights of Academia
+  type: "discord"
+  description: An educational organization devoted to helping individuals actively become the greatest versions of themselves through the development of self discipline, critical thinking, and positive habits.
+  link: https://discord.gg/mhu4maf
+- name: Gamified Reading
+  type: habitica
+  description: This guild not only deals with major problems such as time management, long TBR (To-Be-Read) lists, and buying too many books, but it also makes tackling these problems fun!
+  link: https://habitica.com/groups/guild/381f73d0-087d-4426-86df-f4cfd3d7ab4c
+- name: The Bookworms
+  type: habitica
+  description: A guild for people who love books and want to share with a community.
+  link: https://habitica.com/groups/guild/381f73d0-087d-4426-86df-f4cfd3d7ab4c
+- name: Short Story Readers
+  type: habitica
+  description: A guild dedicated to the reading of short stories, bringing you wonder in snack-sized entertainment.
+  link: https://habitica.com/groups/guild/f18255a5-070e-49e7-a915-bde0731d953d

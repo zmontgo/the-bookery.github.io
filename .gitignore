@@ -1,1 +1,8 @@
-config.php
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Colin's VSCode Workspace Settings
+the-bookery.code-workspace
