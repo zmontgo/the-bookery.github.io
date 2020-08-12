@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ban Appeals
-permalink: /ban-appeals
+permalink: /ban-appeals.html
 ---
 
 # Ban Appeals

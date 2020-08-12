@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Our Friends
-permalink: /friends/
+permalink: /friends.html
 ---
 
 We have lots of communities we enjoy who we've decided to be friends with! If you're interested in joining any of them, check them out!
