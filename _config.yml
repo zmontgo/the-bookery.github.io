@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bookery.codingprojects.org" # the base hostname & protocol for your site, e.g. http://example.com
 discord_url: 2cEWaym
 google_analytics: UA-175238937-1
+disqus:
+  shortname: the-bookery
 
 # navigation
 
