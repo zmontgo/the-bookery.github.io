@@ -1,6 +1,6 @@
 ---
 title: Our Friends
-permalink: "/friends.html"
+permalink: "/friends/"
 layout: page
 ---
 

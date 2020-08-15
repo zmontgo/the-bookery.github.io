@@ -1,6 +1,6 @@
 ---
 title: Blog
-permalink: "/blog.html"
+permalink: "/blog/"
 layout: blog
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-permalink: "/privacy-policy.html"
+permalink: "/privacy-policy/"
 layout: default
 ---
 
