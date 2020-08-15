@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: ftps://ftp.codingprojects.org:21/
+        ftp-server: ftp://ftp.codingprojects.org/
         ftp-username: github@bookery.codingprojects.org
         ftp-password: ${{ secrets.FTP_PASSWORD }}
