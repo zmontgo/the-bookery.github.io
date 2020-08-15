@@ -26,3 +26,5 @@ fields:
 - type: boolean
   name: comments
   label: comments
+pages:
+- _posts/this-is-a-test.md
