@@ -14,3 +14,4 @@ jobs:
         ftp-server: ftp://ftp.codingprojects.org/
         ftp-username: github@bookery.codingprojects.org
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./_site/
