@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Privacy Policy
-permalink: /privacy-policy.html
+permalink: "/privacy-policy.html"
+layout: default
 ---
+
 # Privacy Policy
 
 ## It's Simple
