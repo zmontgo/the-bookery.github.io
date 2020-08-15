@@ -41,3 +41,4 @@ jobs:
         ftp-username: github@bookery.codingprojects.org
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./_site/
+        git-ftp-args: --branch master
