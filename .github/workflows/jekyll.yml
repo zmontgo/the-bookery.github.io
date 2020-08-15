@@ -27,3 +27,17 @@ jobs:
           branch: 'master'         # Default is, um, gh-pages for github provider
           jekyll_src: './'           # Default is, like, y'know, root directory
           jekyll_cfg: '_config.yml'  # Default is, um, _config.yml
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.2
+      with:
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ftp://ftp.codingprojects.org/
+        ftp-username: github@bookery.codingprojects.org
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./_site/
