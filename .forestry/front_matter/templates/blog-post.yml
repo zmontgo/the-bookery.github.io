@@ -17,15 +17,6 @@ fields:
   label: layout
   default: post
   hidden: true
-- name: main_content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Main Content
 - type: text
   name: categories
   label: Categories
