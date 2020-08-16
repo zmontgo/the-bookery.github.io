@@ -32,5 +32,13 @@ fields:
   name: comments
   label: Comments
   default: true
+- name: excerpt
+  type: text
+  config:
+    required: false
+  label: Excerpt
+  description: This is a summary of the post and will be sent in an email and shown
+    on the blog page.
 pages:
 - _posts/2020-08-16-starting-a-blog.md
+- _posts/test.md
