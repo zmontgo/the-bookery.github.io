@@ -5,6 +5,8 @@ fields:
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
@@ -20,6 +22,9 @@ fields:
 - type: text
   name: categories
   label: Categories
+  description: Separated by spaces.
+  config:
+    required: true
 - type: boolean
   name: comments
   label: Comments
