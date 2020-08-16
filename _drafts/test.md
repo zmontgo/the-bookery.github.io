@@ -1,11 +1,14 @@
 ---
 date: 2020-08-16 16:09:28 -0500
 layout: post
-categories: []
+categories:
+- fahrenheit 451
+- book club
+- book review
 comments: true
-title: Test
-author: Zach
-excerpt: Test summary. dsaifndosa
+title: Fahrenheit 451 Review
+author: Zachary Montgomery
+excerpt: A review of Fahrenheit 451 by Ray Bradbury after our book club read it.
 
 ---
-This doesn't have the word summary in it.
+This is a placeholder.
