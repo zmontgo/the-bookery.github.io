@@ -33,4 +33,4 @@ fields:
   label: Comments
   default: true
 pages:
-- _posts/starting-a-blog.md
+- _posts/2020-08-16-starting-a-blog.md
