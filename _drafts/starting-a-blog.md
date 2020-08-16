@@ -7,4 +7,6 @@ categories: reading blog bookery
 comments: true
 
 ---
-Hey there! Welcome to The Bookery's blog. This will be a place where we can share our thoughts on reading and writing. (We may also write about other topics on occasion)
+Hey there! Welcome to The Bookery's blog. This will be a place where we can share our thoughts on reading and writing. We may also write about other topics on occasion, but usually it will be about reading or writing.
+
+We don't have a set schedule for posts, we'll just post when we have something to post about! This ensures all our content is quality-made and genuine, rather than made to fit a schedule. However, because of this uncertainly we highly recommend you sign up for our mailing list, which will send you an email whenever we release a new post.
