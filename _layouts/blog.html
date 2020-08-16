@@ -18,7 +18,7 @@ layout: default
                     {{ post.title | escape }}
                 </a>
             </h3>
-            <p><em>By {{post.author.name}} on {{ post.date | date: "%b %-d, %Y"}}</em></p>
+            <p><em>By {{post.author}} on {{ post.date | date: "%b %-d, %Y"}}</em></p>
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
