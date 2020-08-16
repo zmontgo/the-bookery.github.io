@@ -7,6 +7,4 @@ categories: reading, blog, bookery
 comments: true
 
 ---
-Hello there!
-
-Welcome to The Bookery's blog. This will be a place where we can share our thoughts on reading and writing. (We may also write about other topics on occasion)
+Hey there! Welcome to The Bookery's blog. This will be a place where we can share our thoughts on reading and writing. (We may also write about other topics on occasion)
