@@ -4,13 +4,19 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
   label: date
+  config:
+    required: false
+  default: now
+  hidden: true
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - name: main_content
   type: textarea
   default: ''
@@ -22,9 +28,10 @@ fields:
   label: Main Content
 - type: text
   name: categories
-  label: categories
+  label: Categories
 - type: boolean
   name: comments
-  label: comments
+  label: Comments
+  default: true
 pages:
 - _posts/starting-a-blog.md
