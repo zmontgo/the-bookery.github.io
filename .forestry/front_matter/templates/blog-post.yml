@@ -7,6 +7,11 @@ fields:
   label: Title
   config:
     required: true
+- name: author
+  type: text
+  config:
+    required: true
+  label: Author
 - type: datetime
   name: date
   label: date
@@ -19,12 +24,10 @@ fields:
   label: layout
   default: post
   hidden: true
-- type: text
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: Categories
-  description: Separated by spaces.
-  config:
-    required: true
 - type: boolean
   name: comments
   label: Comments
