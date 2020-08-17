@@ -1,6 +1,6 @@
 ---
 title: Our Friend Application
-permalink: "/partners/"
+permalink: "/apply/"
 layout: default
 ---
 
