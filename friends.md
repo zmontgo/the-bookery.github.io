@@ -6,7 +6,7 @@ layout: page
 
 We have lots of communities we enjoy who we've decided to be friends with! If you're interested in joining any of them, check them out!
 
-Want to join this list? Apply [here](/apply.html)!
+Want to join this list? Apply [here](/apply/)!
 
 <h2 style="color: #CA3721; font-family: Courier Prime">Discord Servers</h2>
 
