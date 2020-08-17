@@ -17,8 +17,6 @@ baseurl: ''
 url: https://bookery.codingprojects.org
 discord_url: 2cEWaym
 matomo: true
-disqus:
-  shortname: the-bookery
 show_excerpts: true
 header_pages:
 - index.md
