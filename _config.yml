@@ -16,7 +16,7 @@ description: 'The Bookery is a large community of over 800 members focused aroun
 baseurl: ''
 url: https://bookery.codingprojects.org
 discord_url: 2cEWaym
-matomo: true
+matomo: false
 show_excerpts: true
 header_pages:
 - index.md
