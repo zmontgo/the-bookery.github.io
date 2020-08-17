@@ -130,7 +130,7 @@ h1, h2, h3 {
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $footer-text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
