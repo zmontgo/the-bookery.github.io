@@ -18,7 +18,7 @@ Our book club recently finished Fahrenheit 451, a short novel by Ray Bradbury. E
 
 Why such a split? I think it has something to do with the intention Bradbury had for the novel.
 
-Fahrenheit 451 is a letter of adoration to books. Many people say that Fahrenheit 451 is a novel about the dangers of technology, and while I believe that is a part of the theme, it is _not_ the main one. So the reason for the divide is that, sadly, many students simply dislike reading. On the other hand, in a book club like ours, there are hundreds of people there who enjoy reading. A love letter only touches those in love. Coincidentally, as we begin reading, we can see Bradbury's fears of a society that has lost its love of reading. It starts with the first of three sections, **The Hearth and the Salamander**. And it opens with the iconic opening:
+Fahrenheit 451 is a commentary on censorship. Many people say that Fahrenheit 451 is a novel about the dangers of technology, and while I believe that is a part of the theme, it is _not_ the main one. Along with this is a love for reading that prevails throughout the entire book. (You cannot hate censorship if you do not love what is being censored) So the reason for the divide is that, sadly, many students simply dislike reading. On the other hand, in a book club like ours, there are hundreds of people there who enjoy reading. A love letter only touches those in love. Coincidentally, as we begin reading, we can see Bradbury's fears of a society that has lost its love of reading. It starts with the first of three sections, **The Hearth and the Salamander**. And it opens with the iconic opening:
 
 > It was a pleasure to burn.
 
