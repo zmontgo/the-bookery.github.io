@@ -10,7 +10,7 @@ collections:
     title: Uploads
     output: true
 environment: production
-description: 'The Bookery is a large community of over 800 members focused around
+description: 'The Bookery is a large community of over 1000 members focused around
   all things written word. Created in 2020 by Zachary Montgomery and Benjamin Hollon,
   we are dedicated to the creation, consumption, admiration, and discussion of literature. '
 baseurl: ''
