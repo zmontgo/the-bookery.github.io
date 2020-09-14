@@ -21,6 +21,7 @@ layout: default
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
+            {% include share-buttons.html %}
         </li>
         <hr>
         {%- endfor -%}
