@@ -20,7 +20,7 @@
     
     function uncheck() {
         var checkbox = document.getElementById('checkbox');
-        alert(checkbox);
+        alert(document.getElementById('checkbox').checked);
         setTimeout(function(){ if (checkbox.check == true) {checkbox.checked = false;} }, 3000);
     }
 </script>
