@@ -19,8 +19,9 @@
     }
     
     function uncheck() {
-        var checkbox = Document.getElementById('checkbox');
-        setTimeout(function(){ if (checkbox.check == true) checkbox.checked = false; }, 3000);
+        var checkbox = document.getElementById('checkbox');
+        alert(checkbox.check);
+        setTimeout(function(){ if (checkbox.check == true) {checkbox.checked = false;} }, 3000);
     }
 </script>
 
