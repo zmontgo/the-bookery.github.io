@@ -21,6 +21,7 @@ show_excerpts: true
 header_pages:
 - index.md
 - friends.md
+- events.md
 - blog.md
 theme: minima
 plugins:
