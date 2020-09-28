@@ -1,6 +1,6 @@
 ---
 title: Events
 permalink: "/events/"
-layout: default
+layout: events
 ---
 
