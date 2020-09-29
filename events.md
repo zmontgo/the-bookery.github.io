@@ -35,6 +35,7 @@ layout: default
   
   <script>
     var date = document.querySelectorAll(".time:last-child");
+    date.innerHtmk = "Loading...";
     var startdifference = timedifference(new Date(Date("{{event.begin}}")).getTime(), Date.now());
     var enddifference = timedifference(new Date(Date("{{event.end}}")).getTime(), Date.now());
   
@@ -45,7 +46,7 @@ layout: default
     } else {
       date.innerHtml = "Event Over";
     }
-  <script>
+  </script>
 
 {% endfor %}
 <p>To take a look at events on a calendar or add them to your Google Calendar, check out our <a href="https://bookerycommunity.com/calendar/">calendar</a>!</p>
