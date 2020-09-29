@@ -35,8 +35,8 @@ layout: default
   
   <script>
     var date = document.querySelectorAll(".time:last-child");
-    var startdifference = timedifference(new Date(Date({{event.begin}})).getTime(), Date.now());
-    var enddifference = timedifference(new Date(Date({{event.end}})).getTime(), Date.now());
+    var startdifference = timedifference(new Date(Date("{{event.begin}}")).getTime(), Date.now());
+    var enddifference = timedifference(new Date(Date("{{event.end}}")).getTime(), Date.now());
   
     if (startdifference > 0) {
       date.innerHtml = "Event Upcoming";
