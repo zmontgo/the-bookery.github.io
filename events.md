@@ -4,19 +4,49 @@ permalink: "/events/"
 layout: default
 ---
 
+<script>
+  // call function with variables timestamp1 and timestamp2 in call
+  function timedifference(timestamp1, timestamp2) {
+    // redefine the variables
+    timestamp1 = new Date(parseInt(timestamp1));
+    timestamp2 = new Date(parseInt(timestamp2));
+
+    let difference = timestamp2.getTime() - timestamp1.getTime();
+
+    difference = Math.floor(difference / 1000 / 60); // Minutes
+
+    return difference;
+  }
+</script>
+
 <h1>Upcoming Events</h1>
 
 <div class="cardholder">
   
 {% for event in site.data.events %}
-
+  
   <div class="card">
+    <span class="time"></span>
     <h1>{{event.title}}</h1>
     <span>{{event.begin}} - {{event.end}}</span>
     <hr>
     <p>{{event.description}}</p>
   </div>
+  
+  <script>
+    var date = document.querySelectorAll(".time:last-child");
+    var startdifference = timedifference({{event.begin}}, Date.now());
+    var enddifference = timedifference({{event.end}}, Date.now());
+  
+    if (startdifference > 0) {
+      date.innerHtml = "Event Upcoming";
+    } else if (startdifference <= 0 && enddifference > 0) {
+      date.innerHtml = "Event Ongoing";
+    } else {
+      date.innerHtml = "Event Over";
+    }
+  <script>
 
 {% endfor %}
-
+<p>To take a look at events on a calendar or add them to your Google Calendar, check out our <a href="https://bookerycommunity.com/calendar/">calendar</a>!</p>
 </div>
