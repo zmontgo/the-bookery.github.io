@@ -36,16 +36,17 @@ layout: default
   <script>
     var date = document.querySelectorAll(".time");
     date = date[date.length-1];
-    date.innerHtml = "Loading...";
+    date.innerText = "Loading...";
     var startdifference = timedifference(new Date(Date("{{event.begin}}")).getTime(), Date.now());
-    var enddifference = timedifference(new Date(Date("{{event.end}}")).getTime(), Date.now());
+    var enddifference = timedifference(new Date(Date("{{event.end}}")).getTime(), Date.now());\
+    console.log(new Date(Date("{{event.begin}}")).getTime() - Date.now());
   
     if (startdifference > 0) {
-      date.innerHtml = "Event Upcoming";
+      date.innerText = "Event Upcoming";
     } else if (startdifference <= 0 && enddifference > 0) {
-      date.innerHtml = "Event Ongoing";
+      date.innerText = "Event Ongoing";
     } else {
-      date.innerHtml = "Event Over";
+      date.innerText = "Event Over";
     }
   </script>
 
