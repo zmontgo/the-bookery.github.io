@@ -304,3 +304,30 @@ h1, h2, h3 {
 .holds-the-iframe {
   background:url('https://miro.medium.com/max/882/1*9EBHIOzhE1XfMYoKz1JcsQ.gif') center center no-repeat;
 }
+
+body {
+  text-align: center;
+}
+
+.card {
+  background: #750384;
+  border-radius: 10px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  color: white;
+
+  hr {
+    border: 3px solid white;
+  }
+
+  span {
+    font-size: .8em
+  }
+
+  p {
+    margin: 0.5em
+  }
+}
