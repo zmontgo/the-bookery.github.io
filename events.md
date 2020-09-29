@@ -34,7 +34,8 @@ layout: default
   </div>
   
   <script>
-    var date = document.querySelectorAll(".time:last-child");
+    var date = document.querySelectorAll(".time");
+    date = date[date.length-1];
     date.innerHtml = "Loading...";
     var startdifference = timedifference(new Date(Date("{{event.begin}}")).getTime(), Date.now());
     var enddifference = timedifference(new Date(Date("{{event.end}}")).getTime(), Date.now());
