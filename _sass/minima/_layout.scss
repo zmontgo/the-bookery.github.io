@@ -305,15 +305,16 @@ h1, h2, h3 {
   background:url('https://miro.medium.com/max/882/1*9EBHIOzhE1XfMYoKz1JcsQ.gif') center center no-repeat;
 }
 
-body {
-  text-align: center;
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .card {
   background: #750384;
   border-radius: 10px;
   display: inline-block;
-  height: 300px;
   margin: 1rem;
   position: relative;
   width: 300px;
