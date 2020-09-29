@@ -319,16 +319,23 @@ h1, h2, h3 {
   position: relative;
   width: 300px;
   color: white;
+  text-align: center;
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin: 0.5em;
+  }
 
   hr {
+    margin: 1em 0;
     border: 3px solid white;
   }
 
   span {
     font-size: .8em
-  }
-
-  p {
-    margin: 0.5em
   }
 }
