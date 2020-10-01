@@ -32,7 +32,7 @@ layout: default
 
 
 <h1>The Reading Wars</h1>
-<h2>An 
+<h2>An Exhaustive Guide</h2>
 
 <button class="accordion">Introduction</button>
 <div class="panel">
