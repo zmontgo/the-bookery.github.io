@@ -29,10 +29,10 @@ layout: default
     <div class="tab-content">
       <p>To begin, you need to join. You can choose a class that will give you certain perks, and the bot will put you on a team that you fight alongside. You can always change your class later if you like. Here's a list of the classes:</p>
       <ul>
-        <li><b>Knight</b> Has an increased chance of a successful attack.</li>
-      <li><b>Stonemason</b> Can build walls to take six hits (instead of four).</li>
-      <li><b>Thief</b> Has a chance to steal back a coin when using any move that takes coins.</li>
-      <li><b>Joker</b> Has some aspects of all classes. Slight chance to steal back coin when using b-bomb, a slightly increased chance of a successful attack, can build the walls to take four hits for only one coin (sometimes), and has a chance to get a bonus when trading in coins.</li>
+        <li><b>Knight</b> - Has an increased chance of a successful attack.</li>
+      <li><b>Stonemason</b> - Can build walls to take six hits (instead of four).</li>
+      <li><b>Thief</b> - Has a chance to steal back a coin when using any move that takes coins.</li>
+      <li><b>Joker</b> - Has some aspects of all classes. Slight chance to steal back coin when using b-bomb, a slightly increased chance of a successful attack, can build the walls to take four hits for only one coin (sometimes), and has a chance to get a bonus when trading in coins.</li>
       </ul>
     </div>
   </div>
@@ -66,8 +66,8 @@ layout: default
     <div class="tab-content">
       <p>Many commands are easily overlooked but when utilized properly grant massive boons to the team. Here is a list:</p>
       <ul>
-        <li><b>b-transfer</b> `b-transfer &lt;user | "team"&gt; &lt;coins&gt;` This command lets you send coins to another user on your team or to your team's stash for whenever anyone needs coins. Use it effectively to give your team members coins when they need them, even if you're offline.</li>
-        <li><b>b-withdraw</b> `b-withdraw &lt;amount of coins&gt;` Will withdraw coins from your team stash. Use sparingly in case others need some in the future!</li>
+        <li><b>b-transfer</b> - `b-transfer &lt;user | "team"&gt; &lt;coins&gt;` This command lets you send coins to another user on your team or to your team's stash for whenever anyone needs coins. Use it effectively to give your team members coins when they need them, even if you're offline.</li>
+        <li><b>b-withdraw</b> - `b-withdraw &lt;amount of coins&gt;` Will withdraw coins from your team stash. Use sparingly in case others need some in the future!</li>
       </ul>
       <p>These two commands, along with a strategy the entire team can get behind and ensuring everyone knows the basic commands well, will give your team the upper hand when playing. But make sure you're reading! For all the commands, none of them work without coins.</p>
     </div>
