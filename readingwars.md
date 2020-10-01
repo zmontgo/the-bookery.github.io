@@ -4,18 +4,12 @@ permalink: "/events/readingwars/"
 layout: default
 ---
 
-<style>input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}</style>
-
 <h1>The Reading Wars</h1>
 <h2>An Exhaustive Guide</h2>
 
 <div class="tabs">
   <div class="tab">
-    <input type="checkbox" id="chck1">
+    <input type="checkbox" id="chck1" class="accordioninput">
     <label class="tab-label" for="chck1">Introduction</label>
     <div class="tab-content">
       <p>The Reading Wars is a competitive event, a dramatic clash between three teams over the title of Reading Champions. For every 15 minutes of uninterrupted reading you complete, you earn 50 points for your team and a coin with which you can attack the other teams! At the end of the month, whichever team has the most points is the winner!</p>
@@ -24,7 +18,7 @@ layout: default
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck2">
+    <input type="checkbox" id="chck2" class="accordioninput">
     <label class="tab-label" for="chck2">Getting Started / Classes</label>
     <div class="tab-content">
       <p>To begin, you need to join. You can choose a class that will give you certain perks, and the bot will put you on a team that you fight alongside. You can always change your class later if you like. Here's a list of the classes:</p>
@@ -37,21 +31,21 @@ layout: default
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck3">
+    <input type="checkbox" id="chck3" class="accordioninput">
     <label class="tab-label" for="chck3">Reading</label>
     <div class="tab-content">
       <p>To do the commands you need coins. One coin can be gotten through 15 minutes of dedicated reading (you <em>must</em> set a timer). Then, log it by using the `b-read` command. You can set a timer for 30 minutes and log two at once, too, by using `b-read 2`. Reading will also give you 50 bonus points.</p>
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck4">
+    <input type="checkbox" id="chck4" class="accordioninput">
     <label class="tab-label" for="chck4">Points</label>
     <div class="tab-content">
       <p>Points are how you win! The points you earn show on your whole team, and the smarter you are with your coins the more points you can earn! There isn't an individual leaderboard to prevent teams from becoming battles within themselves, but you can always check the team leaderboard by using the `b-leaderboard` command.</p>
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck5">
+    <input type="checkbox" id="chck5" class="accordioninput">
     <label class="tab-label" for="chck5">Basic Gameplay</label>
     <div class="tab-content">
       <p>Make sure you have enough coins for each of these moves! Check how much they cost by running `b-help &lt;command&gt;`, for instance `b-help attack`. This will give you some basic info about the command as well as how much it costs. Play however you like, and however your reading schedule allows!</p>
@@ -61,7 +55,7 @@ layout: default
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck6">
+    <input type="checkbox" id="chck6" class="accordioninput">
     <label class="tab-label" for="chck6">Advanced Gameplay</label>
     <div class="tab-content">
       <p>Many commands are easily overlooked but when utilized properly grant massive boons to the team. Here is a list:</p>
@@ -73,7 +67,7 @@ layout: default
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck7">
+    <input type="checkbox" id="chck7" class="accordioninput">
     <label class="tab-label" for="chck7">Offenses</label>
     <div class="tab-content">
       <p>Be sure to play within the rules. Keep things fair so that people can enjoy the game, meaning you can enjoy the game. If you break these rules, you may be banned from the event.</p>
@@ -86,7 +80,7 @@ layout: default
     </div>
   </div>
   <div class="tab">
-    <input type="checkbox" id="chck8">
+    <input type="checkbox" id="chck8" class="accordioninput">
     <label class="tab-label" for="chck8">Command List</label>
     <div class="tab-content">
       <p>Following is a list of all commands, how much they cost to run, and what they do. Note that this list does not include admin commands. If it does not specify a cost, assume there is no cost to run that command.</p>
