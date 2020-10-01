@@ -1,5 +1,5 @@
 ---
-title: Events
+title: The Reading Wars
 permalink: "/events/readingwars/"
 layout: default
 ---
