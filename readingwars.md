@@ -124,38 +124,42 @@ input:checked ~ .tab-content {
     <div class="tab-content">
       <p>To do the commands you need coins. One coin can be gotten through 15 minutes of dedicated reading (you <em>must</em> set a timer). Then, log it by using the `b-read` command. You can set a timer for 30 minutes and log two at once, too, by using `b-read 2`. Reading will also give you 50 bonus points.</p>
   </div>
-</div>
-
-<button class="accordion">Points</button>
-<div class="panel">
-  <p>Points are how you win! The points you earn show on your whole team, and the smarter you are with your coins the more points you can earn! There isn't an individual leaderboard to prevent teams from becoming battles within themselves, but you can always check the team leaderboard by using the `b-leaderboard` command.</p>
-</div>
-
-<button class="accordion">Basic Gameplay</button>
-<div class="panel">
-  <p>Make sure you have enough coins for each of these moves! Check how much they cost by running `b-help &lt;command&gt;`, for instance `b-help attack`. This will give you some basic info about the command as well as how much it costs. Play however you like, and however your reading schedule allows!</p>
- <p>Attacking and defending your team is the main way to earn (or protect) points. Attacking is blocked by walls, although if there are no walls you will earn about 800 points (as long as the attack succeeds. There is a chance an attack will fail even if there are no walls, although you can minimize this by being a knight.) If there are walls, you can bomb the team. This is a much more economic way to break the other team's walls, although it earns no points and has a short cooldown of one minute.</p>
- <p>Building can protect you against attacks. Stonemasons have the advantage here, and can build the walls to take 6 hits rather than 4 for the same cost of 2 coins. There is a cooldown of 5 minutes. Be sure your walls are at full health if you're not being attacked!</p>
- <p>Trading points in can earn you 100 points per coin, which is less than the potential for attack but there is no way it can fail. This is a safer way to play, but earns you less overall.</p>
-</div>
-
-<button class="accordion">Advanced Gameplay</button>
-<div class="panel">
-  <p>Many commands are easily overlooked but when utilized properly grant massive boons to the team. Here is a list:</p>
-  <ul>
-    <li><b>b-transfer</b> `b-transfer &lt;user | "team"&gt; &lt;coins&gt;` This command lets you send coins to another user on your team or to your team's stash for whenever anyone needs coins. Use it effectively to give your team members coins when they need them, even if you're offline.</li>
-    <li><b>b-withdraw</b> `b-withdraw &lt;amount of coins&gt;` Will withdraw coins from your team stash. Use sparingly in case others need some in the future!</li>
-  </ul>
-  <p>These two commands, along with a strategy the entire team can get behind and ensuring everyone knows the basic commands well, will give your team the upper hand when playing. But make sure you're reading! For all the commands, none of them work without coins.</p>
-</div>
-
-<button class="accordion">Offences</button>
-<div class="panel">
-  <p>Be sure to play within the rules. Keep things fair so that people can enjoy the game, meaning you can enjoy the game. If you break these rules, you may be banned from the event.</p>
-  <ul>
-    <li>Leaving and rejoining to try and join a specific team.</li>
-    <li>Spamming read command or using it if you haven't actually read.</li>
-    <li>Being toxic towards other teams.</li>
-    <li>Trying to harm your own team.</li>
-  </ul>
+  <div class="tab">
+    <input type="checkbox" id="chck4">
+    <label class="tab-label" for="chck4">Points</label>
+    <div class="tab-content">
+      <p>Points are how you win! The points you earn show on your whole team, and the smarter you are with your coins the more points you can earn! There isn't an individual leaderboard to prevent teams from becoming battles within themselves, but you can always check the team leaderboard by using the `b-leaderboard` command.</p>
+  </div>
+  <div class="tab">
+    <input type="checkbox" id="chck5">
+    <label class="tab-label" for="chck5">Basic Gameplay</label>
+    <div class="tab-content">
+      <p>Make sure you have enough coins for each of these moves! Check how much they cost by running `b-help &lt;command&gt;`, for instance `b-help attack`. This will give you some basic info about the command as well as how much it costs. Play however you like, and however your reading schedule allows!</p>
+      <p>Attacking and defending your team is the main way to earn (or protect) points. Attacking is blocked by walls, although if there are no walls you will earn about 800 points (as long as the attack succeeds. There is a chance an attack will fail even if there are no walls, although you can minimize this by being a knight.) If there are walls, you can bomb the team. This is a much more economic way to break the other team's walls, although it earns no points and has a short cooldown of one minute.</p>
+      <p>Building can protect you against attacks. Stonemasons have the advantage here, and can build the walls to take 6 hits rather than 4 for the same cost of 2 coins. There is a cooldown of 5 minutes. Be sure your walls are at full health if you're not being attacked!</p>
+      <p>Trading points in can earn you 100 points per coin, which is less than the potential for attack but there is no way it can fail. This is a safer way to play, but earns you less overall.</p>
+  </div>
+  <div class="tab">
+    <input type="checkbox" id="chck6">
+    <label class="tab-label" for="chck6">Advanced Gameplay</label>
+    <div class="tab-content">
+      <p>Many commands are easily overlooked but when utilized properly grant massive boons to the team. Here is a list:</p>
+      <ul>
+        <li><b>b-transfer</b> `b-transfer &lt;user | "team"&gt; &lt;coins&gt;` This command lets you send coins to another user on your team or to your team's stash for whenever anyone needs coins. Use it effectively to give your team members coins when they need them, even if you're offline.</li>
+        <li><b>b-withdraw</b> `b-withdraw &lt;amount of coins&gt;` Will withdraw coins from your team stash. Use sparingly in case others need some in the future!</li>
+      </ul>
+      <p>These two commands, along with a strategy the entire team can get behind and ensuring everyone knows the basic commands well, will give your team the upper hand when playing. But make sure you're reading! For all the commands, none of them work without coins.</p>
+  </div>
+  <div class="tab">
+    <input type="checkbox" id="chck7">
+    <label class="tab-label" for="chck7">Offences</label>
+    <div class="tab-content">
+      <p>Be sure to play within the rules. Keep things fair so that people can enjoy the game, meaning you can enjoy the game. If you break these rules, you may be banned from the event.</p>
+      <ul>
+        <li>Leaving and rejoining to try and join a specific team.</li>
+        <li>Spamming read command or using it if you haven't actually read.</li>
+        <li>Being toxic towards other teams.</li>
+        <li>Trying to harm your own team.</li>
+      </ul>
+  </div>
 </div>
