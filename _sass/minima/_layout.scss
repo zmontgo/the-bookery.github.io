@@ -340,6 +340,12 @@ h1, h2, h3 {
   }
 }
 
+input.accordioninput {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
 /* Accordion styles */
 .tabs {
   border-radius: 8px;
