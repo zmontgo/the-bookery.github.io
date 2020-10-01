@@ -392,6 +392,7 @@ input.accordioninput {
 .tab-close {
   display: -webkit-box;
   display: flex;
+  flex: 0 0 auto;
   -webkit-box-pack: end;
           justify-content: flex-end;
   padding: 1em;
