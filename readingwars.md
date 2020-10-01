@@ -12,7 +12,7 @@ layout: default
     <input type="checkbox" id="chck1">
     <label class="tab-label" for="chck1">Introduction</label>
     <div class="tab-content">
-      <p>The Reading Wars is a competitive event, a dramatic clash between three teams over the title of Reading Champions. For ever 15 minutes of uninterrupted reading you complete, you earn 50 points for your team and a coin with which you can attack the other teams! At the end of the month, whichever team has the most points is the winner!</p>
+      <p>The Reading Wars is a competitive event, a dramatic clash between three teams over the title of Reading Champions. For every 15 minutes of uninterrupted reading you complete, you earn 50 points for your team and a coin with which you can attack the other teams! At the end of the month, whichever team has the most points is the winner!</p>
       <p>This event will motivate you to read more, along with create a fun and competitive environment for you to see who is the victor. The winning team will get special recognition with a permanent role detailing your winning status of the Reading Wars, along with bookmarks.</p>
       <p>The event goes for the duration of October ever year, and is a great way to come together with (or against) friends to battle for supremacy.</p>
     </div>
