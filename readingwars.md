@@ -123,12 +123,14 @@ input:checked ~ .tab-content {
     <label class="tab-label" for="chck3">Reading</label>
     <div class="tab-content">
       <p>To do the commands you need coins. One coin can be gotten through 15 minutes of dedicated reading (you <em>must</em> set a timer). Then, log it by using the `b-read` command. You can set a timer for 30 minutes and log two at once, too, by using `b-read 2`. Reading will also give you 50 bonus points.</p>
+    </div>
   </div>
   <div class="tab">
     <input type="checkbox" id="chck4">
     <label class="tab-label" for="chck4">Points</label>
     <div class="tab-content">
       <p>Points are how you win! The points you earn show on your whole team, and the smarter you are with your coins the more points you can earn! There isn't an individual leaderboard to prevent teams from becoming battles within themselves, but you can always check the team leaderboard by using the `b-leaderboard` command.</p>
+    </div>
   </div>
   <div class="tab">
     <input type="checkbox" id="chck5">
@@ -138,6 +140,7 @@ input:checked ~ .tab-content {
       <p>Attacking and defending your team is the main way to earn (or protect) points. Attacking is blocked by walls, although if there are no walls you will earn about 800 points (as long as the attack succeeds. There is a chance an attack will fail even if there are no walls, although you can minimize this by being a knight.) If there are walls, you can bomb the team. This is a much more economic way to break the other team's walls, although it earns no points and has a short cooldown of one minute.</p>
       <p>Building can protect you against attacks. Stonemasons have the advantage here, and can build the walls to take 6 hits rather than 4 for the same cost of 2 coins. There is a cooldown of 5 minutes. Be sure your walls are at full health if you're not being attacked!</p>
       <p>Trading points in can earn you 100 points per coin, which is less than the potential for attack but there is no way it can fail. This is a safer way to play, but earns you less overall.</p>
+    </div>
   </div>
   <div class="tab">
     <input type="checkbox" id="chck6">
@@ -149,6 +152,7 @@ input:checked ~ .tab-content {
         <li><b>b-withdraw</b> `b-withdraw &lt;amount of coins&gt;` Will withdraw coins from your team stash. Use sparingly in case others need some in the future!</li>
       </ul>
       <p>These two commands, along with a strategy the entire team can get behind and ensuring everyone knows the basic commands well, will give your team the upper hand when playing. But make sure you're reading! For all the commands, none of them work without coins.</p>
+    </div>
   </div>
   <div class="tab">
     <input type="checkbox" id="chck7">
@@ -161,5 +165,6 @@ input:checked ~ .tab-content {
         <li>Being toxic towards other teams.</li>
         <li>Trying to harm your own team.</li>
       </ul>
+    </div>
   </div>
 </div>
