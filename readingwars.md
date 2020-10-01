@@ -117,11 +117,13 @@ input:checked ~ .tab-content {
       <li><b>Joker</b> Has some aspects of all classes. Slight chance to steal back coin when using b-bomb, a slightly increased chance of a successful attack, can build the walls to take four hits for only one coin (sometimes) and has a chance to get a bonus when trading in coins.</li>
       </ul>
     </div>
-    <div class="tab">
+  </div>
+  <div class="tab">
     <input type="checkbox" id="chck3">
     <label class="tab-label" for="chck3">Reading</label>
     <div class="tab-content">
       <p>To do the commands you need coins. One coin can be gotten through 15 minutes of dedicated reading (you <em>must</em> set a timer). Then, log it by using the `b-read` command. You can set a timer for 30 minutes and log two at once, too, by using `b-read 2`. Reading will also give you 50 bonus points.</p>
+  </div>
 </div>
 
 <button class="accordion">Points</button>
