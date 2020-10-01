@@ -4,6 +4,12 @@ permalink: "/events/readingwars/"
 layout: default
 ---
 
+<style>input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}</style>
+
 <h1>The Reading Wars</h1>
 <h2>An Exhaustive Guide</h2>
 
