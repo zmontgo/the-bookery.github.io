@@ -406,5 +406,6 @@ input:checked + .tab-label::after {
 }
 input:checked ~ .tab-content {
   padding: 1em;
-  max-height: 1000vh;
+  max-height: 100vh;
+  overflow: scroll;
 }
