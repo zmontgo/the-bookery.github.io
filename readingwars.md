@@ -13,20 +13,20 @@ layout: default
     <label class="tab-label" for="chck1">Introduction</label>
     <div class="tab-content">
       <p>The Reading Wars is a competitive event, a dramatic clash between three teams over the title of Reading Champions. For every 15 minutes of uninterrupted reading you complete, you earn 50 points for your team and a coin with which you can attack the other teams! At the end of the month, whichever team has the most points is the winner!</p>
-      <p>This event will motivate you to read more, along with create a fun and competitive environment for you to see who is the victor. The winning team will get special recognition with a permanent role detailing your winning status of the Reading Wars, along with bookmarks.</p>
-      <p>The event goes for the duration of October ever year, and is a great way to come together with (or against) friends to battle for supremacy.</p>
+      <p>This event will motivate you to read more, along with creating a fun and competitive environment for you to see who is the victor. The winning team will get special recognition with a permanent role detailing your winning status of the Reading Wars, along with bookmarks.</p>
+      <p>The event goes for the duration of October every year and is a great way to come together with (or against) friends to battle for supremacy.</p>
     </div>
   </div>
   <div class="tab">
     <input type="checkbox" id="chck2">
     <label class="tab-label" for="chck2">Getting Started / Classes</label>
     <div class="tab-content">
-      <p>To begin, you need to join. You can choose a class which will give you certain perks, and the bot will put you on a team that you fight alongside. You can always change your class later if you like. Here's a list of the classes:</p>
+      <p>To begin, you need to join. You can choose a class that will give you certain perks, and the bot will put you on a team that you fight alongside. You can always change your class later if you like. Here's a list of the classes:</p>
       <ul>
         <li><b>Knight</b> Has an increased chance of a successful attack.</li>
       <li><b>Stonemason</b> Can build walls to take six hits (instead of four).</li>
       <li><b>Thief</b> Has a chance to steal back a coin when using any move that takes coins.</li>
-      <li><b>Joker</b> Has some aspects of all classes. Slight chance to steal back coin when using b-bomb, a slightly increased chance of a successful attack, can build the walls to take four hits for only one coin (sometimes) and has a chance to get a bonus when trading in coins.</li>
+      <li><b>Joker</b> Has some aspects of all classes. Slight chance to steal back coin when using b-bomb, a slightly increased chance of a successful attack, can build the walls to take four hits for only one coin (sometimes), and has a chance to get a bonus when trading in coins.</li>
       </ul>
     </div>
   </div>
@@ -51,7 +51,7 @@ layout: default
       <p>Make sure you have enough coins for each of these moves! Check how much they cost by running `b-help &lt;command&gt;`, for instance `b-help attack`. This will give you some basic info about the command as well as how much it costs. Play however you like, and however your reading schedule allows!</p>
       <p>Attacking and defending your team is the main way to earn (or protect) points. Attacking is blocked by walls, although if there are no walls you will earn about 800 points (as long as the attack succeeds. There is a chance an attack will fail even if there are no walls, although you can minimize this by being a knight.) If there are walls, you can bomb the team. This is a much more economic way to break the other team's walls, although it earns no points and has a short cooldown of one minute.</p>
       <p>Building can protect you against attacks. Stonemasons have the advantage here, and can build the walls to take 6 hits rather than 4 for the same cost of 2 coins. There is a cooldown of 5 minutes. Be sure your walls are at full health if you're not being attacked!</p>
-      <p>Trading points in can earn you 100 points per coin, which is less than the potential for attack but there is no way it can fail. This is a safer way to play, but earns you less overall.</p>
+      <p>Trading points in can earn you 100 points per coin, which is less than the potential for an attack but there is no way it can fail. This is a safer way to play but earns you less overall.</p>
     </div>
   </div>
   <div class="tab">
@@ -68,14 +68,14 @@ layout: default
   </div>
   <div class="tab">
     <input type="checkbox" id="chck7">
-    <label class="tab-label" for="chck7">Offences</label>
+    <label class="tab-label" for="chck7">Offenses</label>
     <div class="tab-content">
       <p>Be sure to play within the rules. Keep things fair so that people can enjoy the game, meaning you can enjoy the game. If you break these rules, you may be banned from the event.</p>
       <ul>
         <li>Leaving and rejoining to try and join a specific team.</li>
-        <li>Spamming read command or using it if you haven't actually read.</li>
-        <li>Being toxic towards other teams.</li>
-        <li>Trying to harm your own team.</li>
+        <li>Spamming read command or using it if you haven't read.</li>
+        <li>Being toxic to other teams.</li>
+        <li>Trying to harm your team.</li>
       </ul>
     </div>
   </div>
